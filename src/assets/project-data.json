@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Cisco Summer 22",
+    "description": "Software Engineering Intern | Cloud Networking Team NDA",
+    "image": "cisco.png",
+    "link":"#"
+
+  },
+  {
+    "name": "Development",
+    "description": "An interactive Pokemon team builder",
+    "image": "development.png",
+    "link":"https://quirkyturtle190.github.io/Development/"
+  },
+  {
+    "name": "Responsive Redesign",
+    "description": "A mobile and desktop-friendly redesign of a local business",
+    "image": "redesign.png",
+    "link": "https://quirkyturtle190.github.io/uiux-portfolio/assignment2/assignment2.html"
+  },
+  {
+    "name": "Iterative Design",
+    "description": "A POS design developed through several iterations",
+    "image": "iterative.png",
+    "link": "https://hungrybison102.github.io/iterative-design/"
+  }
+]

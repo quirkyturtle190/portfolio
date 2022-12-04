@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 32px;
+}
+
+.nav-link:hover{
+    color: #1ae5f7;
+}
+
+.links {
+    justify-content: space-evenly;
+    padding: 1rem 1.5rem;
+    float: right;
+}
+
+.logo {
+    justify-content: space-evenly;
+    margin: 0 5rem;
+    float: left;
+}
+.logo h1 {
+    font-family: cursive;
+}
+
+.navbar a {
+    padding: 14px 16px;
+}
+

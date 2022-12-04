@@ -1,0 +1,71 @@
+body {
+    display: flex
+}
+
+.info {
+    display: inline-block;
+    place-items: center;
+    margin: 5rem 0 0 0;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation:
+            typing 2s steps(20, end),
+            blink-caret .75s step-end infinite;
+    font-size: 40px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.about {
+    display: flex;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 5rem;
+}
+
+.child1 {
+    width: 60%;
+}
+
+.child2 {
+    display: flex;
+    width: 30%;
+    align-items: flex-end;
+    justify-content: center
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
