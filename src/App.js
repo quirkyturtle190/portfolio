@@ -26,7 +26,7 @@ function App() {
                     </div>
                 </div>
                 <div className="child2">
-                    <img className="selfie" src="/selfie.png" alt="selfie"/>
+                    <img className="selfie" src="/portfolio/selfie.png" alt="selfie"/>
                 </div>
             </div>
             <div className="flex-row">
