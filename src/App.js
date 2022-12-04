@@ -1,4 +1,5 @@
 import NavBar from './components/NavBar';
+import { Helmet } from 'react-helmet'
 import './App.css';
 
 import projectData from "./assets/project-data.json";
@@ -12,6 +13,10 @@ projectData.forEach((item) => {
 function App() {
   return (
         <div className="App">
+            <Helmet>
+                <title>Portfolio</title>
+                <meta name="Porfolio" content="Portfolio application" />
+            </Helmet>
           <NavBar/>
             <div className="container">
                 <div className="child1">

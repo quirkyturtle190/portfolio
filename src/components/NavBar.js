@@ -8,7 +8,7 @@ export default function NavBar(){
         </div>
         <div className="links">
             <ul className="nav-links">
-                <li className="nav-link"><Link to="/">Projects</Link></li>
+                <li className="nav-link"><Link to="/portfolio">Projects</Link></li>
                 <li className="nav-link"><Link to="/about">About</Link></li>
                 <li className="nav-link"><Link to="/resume">Resume</Link></li>
             </ul>
