@@ -1,11 +1,12 @@
 body {
-    display: flex
+    display: flex;
+    font-family: "Times", serif !important;
 }
 
 .info {
     display: inline-block;
     place-items: center;
-    margin: 5rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .typed-out{
@@ -31,6 +32,7 @@ body {
 .about {
     display: flex;
     font-size: 20px;
+    font-family: "Times", serif;
 }
 
 .container {
@@ -38,11 +40,21 @@ body {
     flex-direction: row;
     width: 90%;
     justify-content: space-between;
-    margin: 0 5rem;
+    margin: 0 0 5rem 5rem;
 }
 
 .child1 {
-    width: 60%;
+    width: 50%;
+}
+
+.child1 h1 {
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.child1 h2 {
+    font-weight: 700;
+    margin: 1rem 0;
 }
 
 .child2 {
